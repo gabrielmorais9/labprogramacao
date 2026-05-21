@@ -1,0 +1,13 @@
+input,body{
+    color: rgb(58, 104, 104);
+    text-align: center;
+    padding: 8px;
+    margin: 4px;
+    border-color: rgb(206, 119, 6);
+}
+input::checkmark{   
+    border-color: aquamarine;
+}
+body{
+    background-color: antiquewhite;
+}
