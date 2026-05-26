@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+    <a href="flexbox.html">Outra</a>
     <h1>Formularios</h1>
     <div class="conteudo-formulario">
         <form>
@@ -28,10 +29,34 @@
 
             <h3>Dados</h3>
             <label for="Email">Email:</label>
-            <input type="email" id="Email" placeholder="Seu Email">
+            <input type="email" id="Email" placeholder="Seu Email" required>
             <label for="Senha">Senha:</label>
-            <input type="password" id="Senha" placeholder="Sua senha">
+            <input type="password" id="Senha" placeholder="Sua senha" required  >
   
+            <div>
+                <h3>Escolha sua materia favorita</h3>
+
+                <input type="checkbox" id="port"><label for="port">Portugues</label>
+                <input type="checkbox" id="prog"><label for="prog">Programação</label>
+                <input type="checkbox" id="mat"><label for="mat">Matematica</label>
+                <input type="checkbox" id="his"><label for="his">Historia</label>
+
+
+            </div>
+            <div>
+                <h3>Escolha o ano cursado</h3>
+                <select>
+                    <option value="1">1° ano</option>
+                    <option value="2">2° ano</option>
+                    <option value="3">3° ano</option>
+
+                </select>
+            </div>
+
+            <textarea></textarea>
+            <br>
+            <button>Otro site</button>
+
         </form>
     </div>
 </body>

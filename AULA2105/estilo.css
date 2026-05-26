@@ -1,13 +1,20 @@
-input,body{
+input,body,select,label,button,textarea{
     color: rgb(58, 104, 104);
     text-align: center;
     padding: 8px;
     margin: 4px;
     border-color: rgb(206, 119, 6);
 }
-input::checkmark{   
-    border-color: aquamarine;
-}
 body{
     background-color: antiquewhite;
+}
+.cp{
+    background-color: rgb(172, 160, 224);
+}
+.rodape{
+    background-color: rgb(165, 216, 199);
+}
+.td{
+    display: flex;
+    flex-direction: column;
 }
